@@ -67,3 +67,15 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# PlatformIO (applies to every project subdirectory)
+.pio/
+**/.pio/
+.pioenvs/
+.piolibdeps/
+
+# VS Code / PlatformIO IDE generated files (per-project)
+**/.vscode/.browse.c_cpp.db*
+**/.vscode/c_cpp_properties.json
+**/.vscode/launch.json
+**/.vscode/ipch/
