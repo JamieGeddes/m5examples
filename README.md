@@ -13,12 +13,15 @@ m5examples/
 ├── .gitignore        # repo-wide ignores (covers every project's build artifacts)
 ├── LICENSE
 ├── README.md
-└── geodash/          # a PlatformIO project
+├── geodash/          # a PlatformIO project (Geometry Dash mini-game)
+│   ├── platformio.ini
+│   ├── src/
+│   ├── include/
+│   ├── lib/
+│   └── test/
+└── magic-8-ball/     # voice-prompted Magic 8-Ball (uses M5Unified for the mic)
     ├── platformio.ini
-    ├── src/
-    ├── include/
-    ├── lib/
-    └── test/
+    └── src/
 ```
 
 ## Building a project
